@@ -12,15 +12,19 @@ This example deck demonstrates reusable slide conventions for a teaching reposit
 
 Use one slide deck per session.
 
-# Learning objectives
+## {data-menu-title="Learning objectives" data-state="hide-menubar"}
 
-After this session, you should be able to:
+<br><br><br><br><br>
 
+::: {.learning-objectives}
 - explain the repository structure;
 - distinguish metadata, generated data, and teaching content;
 - identify which files to change when creating a new course.
+:::
 
-# Teaching goals
+# Format examples
+
+## Teaching goals {data-state="hide-menubar"}
 
 The teaching goal is to make repository conventions visible before students or instructors start adding course-specific material.
 
@@ -29,14 +33,14 @@ The teaching goal is to make repository conventions visible before students or i
 Course repositories stay maintainable when repeated structural information lives in one metadata source.
 :::
 
-# Core concept
+## Core concept  {data-state="hide-menubar"}
 
 ::: {.highlight_must_learn}
 **Essential concept.**
 A teaching repository separates reusable infrastructure, configurable metadata, generated data, and course-specific content.
 :::
 
-# Working with columns
+## Working with columns  {data-state="hide-menubar"}
 
 :::: {.columns}
 ::: {.column width="50%"}
