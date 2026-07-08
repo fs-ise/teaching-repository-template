@@ -1,0 +1,31 @@
+course:
+  id: example-course
+  title: Example Course
+  short_title: EC
+  semester: Summer 2027
+  level: Bachelor
+  language: English
+  credits: 6
+  description: Reusable Quarto teaching repository template for lectures, seminars, and project-based courses.
+repository:
+  organization: fs-ise
+  name: teaching-repository-template
+  url: https://github.com/fs-ise/teaching-repository-template
+instructor:
+  name: Instructor Name
+schedule:
+  handbook_event_match: null
+  timezone: Europe/Berlin
+  source_path: data/events.yaml
+sessions:
+  - session_id: session-01
+    title: Example session
+    subtitle: Introduction
+    date: 2027-04-12
+    start: "09:00"
+    end: "10:30"
+    location: Room TBD
+    event_id: null
+    slides: slides/session_01.qmd
+    notes: notes/session_01.qmd
+    exercise: exercises/session_01.qmd

@@ -1,0 +1,6 @@
+[project]
+name = "teaching-repository-template"
+version = "0.1.0"
+description = "Reusable Quarto teaching repository template"
+requires-python = ">=3.11"
+dependencies = []
