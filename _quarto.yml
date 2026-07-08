@@ -12,7 +12,7 @@ project:
 metadata-files:
   - course.yml
 website:
-  title: "{{< meta course.title >}}"
+  title: "Example Course"
   repo-url: "{{< meta repository.url >}}"
   repo-actions: [edit, issue]
   sidebar:

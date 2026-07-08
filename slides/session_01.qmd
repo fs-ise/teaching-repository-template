@@ -22,7 +22,7 @@ Use one slide deck per session.
 - identify which files to change when creating a new course.
 :::
 
-# Format examples
+# Format examples {data-stack-name="Format examples"}
 
 ## Teaching goals {data-state="hide-menubar"}
 
