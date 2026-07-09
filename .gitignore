@@ -6,6 +6,7 @@ _pdf-tmp/
 __pycache__/
 *.py[cod]
 .server.pid
+.cache/
 
 /.quarto/
 **/*.quarto_ipynb
