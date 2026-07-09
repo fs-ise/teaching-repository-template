@@ -41,15 +41,7 @@ format:
     toc: false
     css: assets/styles.css
     include-after-body: assets/repo-actions-bottom.html
-  revealjs:
-    theme: [default, assets/reveal.scss]
-    css: assets/reveal-frankfurt.css
-    include-after-body: assets/reveal-frankfurt.js
-    slide-number: false
-    chalkboard: false
-    preview-links: auto
-    menu: false
-    self-contained: false
+
 bibliography: bibliography.bib
 execute:
   freeze: auto
