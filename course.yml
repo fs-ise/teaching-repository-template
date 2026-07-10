@@ -2,7 +2,7 @@ course:
   id: example-course
   title: Example Course
   short_title: EC
-  semester: Summer 2027
+  semester: 2026-WiSe
   level: Bachelor
   language: English
   credits: 6
@@ -12,20 +12,39 @@ repository:
   name: teaching-repository-template
   url: https://github.com/fs-ise/teaching-repository-template
 instructor:
-  name: Instructor Name
+  name: Dr. Instructor Name
+  name_no_title: Instructor Name
+  email: e@mail.com
+  url: https://www.university.edu/lecturer
+  online_meeting_url: https://teams.microsoft.com/meet/123456
+  bookings_url: https://outlook.office.com/bookwithme/user/123456
 schedule:
-  handbook_event_match: null
+  handbook_event_match: "Course Name in data/events.yml"
   timezone: Europe/Berlin
   source_path: data/events.yaml
-sessions:
-  - session_id: session-01
-    title: Example session
-    subtitle: Introduction
-    date: 2027-04-12
-    start: "09:00"
-    end: "10:30"
-    location: Room TBD
-    event_id: null
-    slides: slides/session_01.qmd
-    notes: notes/session_01.qmd
-    exercise: exercises/session_01.qmd
+group_work:
+  application_deadline: "TODO"
+  presentation_date: "2026-10-02"
+  submission_date: "TODO"
+  submission_url: "TODO"
+events:
+  - session_id: session-01-lecture
+    type: lecture
+    date: 2026-09-04
+    start: '10:00'
+    end: '11:30'
+    location: S2.11
+    event_id: 274990-1926698564-0@timeedit.com
+    materials:
+      - type: slides
+        path: slides/session_01.html
+  - session_id: session-01-exercise
+    type: exercise
+    date: 2026-09-04
+    start: '11:45'
+    end: '13:15'
+    location: S2.11
+    event_id: 274991-1926698564-0@timeedit.com
+    materials:
+      - type: exercise
+        path: exercises/session_01.html

@@ -2,14 +2,22 @@
 title: "{{< meta course.title >}}"
 ---
 
+![Course Status](https://img.shields.io/badge/Current%20course--{{< meta course.semester >}}-green)
+[![Level](https://img.shields.io/badge/Level-{{< meta course.level >}}-blue)](syllabus.html)
+[![Degree Program](https://img.shields.io/badge/Degree%20Program-Master%20in%20Management-blue)](syllabus.html)
+[![Prerequisites](https://img.shields.io/badge/Prerequisites-Good%20Knowledge%20in%20Statistics-blue)](syllabus.html)
+![Duration](https://img.shields.io/badge/Work%20load-150h%20(6%20ECTS)-blue)<br>
+[![Language](https://img.shields.io/badge/Language-{{< meta course.language >}}-blue)](syllabus.html)
+[![Format](https://img.shields.io/badge/Format-Lecture%20%2B%20Exercises-blue)](syllabus.html)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)
+
 {{< meta course.title >}} is a generic, configurable teaching repository.
 
 Use this landing page for syllabus links, teaching material, and the automatically generated session overview.
 
-- [Syllabus](syllabus.qmd)
-- [Teaching notes](teaching_notes.qmd)
-- [Resources](resources.qmd)
-- [Example slides](slides/session_01.qmd)
+Instructor: {{< meta instructor.name_no_title >}}
+
+## Sessions
 
 ```{python}
 #| echo: false

@@ -1,14 +1,6 @@
 project:
   type: website
   output-dir: _site
-  render:
-    - index.qmd
-    - syllabus.qmd
-    - teaching_notes.qmd
-    - resources.qmd
-    - slides/*.qmd
-    - notes/*.qmd
-    - exercises/*.qmd
 metadata-files:
   - course.yml
 website:
@@ -23,24 +15,27 @@ website:
         href: index.qmd
       - text: Syllabus
         href: syllabus.qmd
+      - text: Group work
+        href: group_work.qmd
       - text: Teaching notes
         href: teaching_notes.qmd
       - text: Resources
         href: resources.qmd
-      - section: Materials
-        contents:
-          - text: Example slides
-            href: slides/session_01.qmd
-          - text: Example notes
-            href: notes/session_01.qmd
-          - text: Example exercise
-            href: exercises/session_01.qmd
+
 format:
   html:
     theme: cosmo
     toc: false
     css: assets/styles.css
     include-after-body: assets/repo-actions-bottom.html
+    grid:
+      sidebar-width: 280px
+      body-width: 1000px
+      margin-width: 280px
+      gutter-width: 1.5rem
+
+
+format-links: false
 
 bibliography: bibliography.bib
 execute:
